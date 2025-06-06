@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <div class="profile-pic">
+                <img src="IMG.png" alt="Profile Picture">
+            </div>
+            <h1>Deepak V</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate web developer with expertise in creating responsive and user-friendly websites. I love turning ideas into reality through code and design.</p>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-item">
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p>M Kumarasamy College of Engineering</p>
+                <p>Year: 2022- 2026</p>
+                <p>CGPA: 7.2</p>
+            </div>
+            <div class="education-item">
+                <h3>Higher Secondary Education</h3>
+                <p>The Modern Academy Matric Higher Secondary School</p>
+                <p>Year: 2019 -2020</p>
+                <p>Percentage: 94%</p>
+            </div>
+            <div class="education-item">
+                <h3>SSLC</h3>
+                <p>The Modern Academy Matric Higher Secondary School</p>
+                <p>Year: 2021- 2022</p>
+                <p>Percentage: 90%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="certifications-content">
+            <div class="certification-item">
+                <h3>Full Stack Web Development</h3>
+                <p>FreeCodeCamp</p>
+                <p>Year: 2023</p>
+            </div>
+            <div class="certification-item">
+                <h3>JavaScript Algorithms and Data Structures</h3>
+                <p>FreeCodeCamp</p>
+                <p>Year: 2023</p>
+            </div>
+
+            <div class="certification-item">
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Amazon Web Services</p>
+                <p>Year: 2025</p>
+                <p>Validation Number: 67faefc0bb8a4e28862d766c9cbeac88</p>
+                <div class="validation-link">
+                    <a href="https://aws.amazon.com/verification" target="_blank" class="validate-link">Validate at AWS Certification</a>
+                </div>
+                <div class="certificate-image">
+                    <img src="AWS.png" alt="AWS Certification" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-content">
+            <div class="project-item">
+                <h3>Air Quality Prediction System</h3>
+                <p>An AI-powered system for predicting air quality using machine learning</p>
+                <div class="project-image">
+                    <img src="PRO1.png" alt="Air Quality Prediction System" style="max-width: 100%; height: auto;">
+                </div>
+                <ul>
+                    <li>Developed using Python and TensorFlow</li>
+                    <li>Implemented data preprocessing and feature extraction</li>
+                    <li>Created a real-time air quality prediction model</li>
+                    <li>Integrated with IoT sensors for real-time data collection</li>
+                    <li>Built a web-based dashboard for visualization</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <h3>Smart Home Energy Management System</h3>
+                <p>An IoT-based energy management system for smart homes</p>
+                <div class="project-image">
+                    <img src="PRO2.jpeg" alt="Smart Home Energy Management System" style="max-width: 100%; height: auto;">
+                </div>
+                <ul>
+                    <li>Developed using Node.js and MongoDB</li>
+                    <li>Implemented real-time energy consumption monitoring</li>
+                    <li>Created automated energy optimization algorithms</li>
+                    <li>Integrated with smart devices and sensors</li>
+                    <li>Developed a mobile app for user control</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/VDeepak21" class="social-icon" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/deepak-v-a4514225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/dee_pak_3_/" class="social-icon" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Deepak V. All rights reserved.</p>
+    </footer>
+</body>
+</html>
